@@ -1,0 +1,201 @@
+	/* Styles specific to Koop je Villa website */
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #004483e0;
+    padding: 10px;
+    text-align: center; /* Added to center align the content */
+}
+
+header img.logo {
+    width: 150px;
+    vertical-align: middle; /* Added to vertically center the logo */
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(232, 232, 232);
+    font-size: 17px;
+    margin-right: 20px;
+    border-color: #333;
+}
+
+header form {
+    margin-top: 10px;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #004483c9;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: rgb(228, 228, 228);
+}
+
+.hero p {
+    font-size: 20px;
+    color: rgb(216, 216, 216);
+}
+
+/* Featured Villas section styles */
+.featured-villas {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.featured-villas h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #004483e0;
+    margin-bottom: 30px;
+}
+
+.villa-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    align-items: center;
+    margin-left: 23px;
+    border-radius: 5px;
+}
+
+.villa-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.villa-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.villa-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.villa-card a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #004483d0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+/* Search Villas section styles */
+.search-villas {
+    padding: 40px;
+    background-color: #f1f1f1;
+}
+
+.search-villas h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #004483c9;
+    margin-bottom: 30px;
+}
+
+.search-villas form {
+    text-align: center;
+}
+
+.search-villas form input[type="text"],
+.search-villas form button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-villas form button {
+    background-color: #004483c9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+/* Footer styles */
+footer {
+    padding: 20px;
+    background-color: #004483d0;
+    color: #fff;
+    text-align: center;
+}
+
+footer p,
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+.navbar-dark {
+    --bs-navbar-hover-backgroud: black !important;
+    --bs-navbar-color: rgba(255, 255, 255, 0.55);
+    --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-brand-color: #fff;
+    --bs-navbar-brand-hover-color: #fff;
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+    --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+}
+
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #004483c9 !important;
+}
+
+.nav-link:hover,.nav-link:active{
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color .200s ease-in-out,background-color .200s ease-in-out,border-color .200s ease-in-out;
+    background-color: #bbdeffc9 !important;
+    border: solid 1px #7cc0ffd0!important;
+    border-radius: 5px;
+}

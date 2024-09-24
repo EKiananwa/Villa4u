@@ -1,0 +1,145 @@
+/* Styles specific to Koop je Villa website */
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #004483e0;
+    padding: 10px;
+    text-align: center; /* Added to center align the content */
+}
+
+header img.logo {
+    width: 150px;
+    vertical-align: middle; /* Added to vertically center the logo */
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(232, 232, 232);
+    font-size: 17px;
+    margin-right: 20px;
+    border-color: #333;
+}
+
+header form {
+    margin-top: 10px;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #004483c9;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: rgb(228, 228, 228);
+}
+
+.hero p {
+    font-size: 20px;
+    color: rgb(216, 216, 216);
+}
+
+/* Contact section styles */
+.contact {
+    padding: 50px;
+    background-color: #f1f1f1;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #004483c9;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    text-align: center;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 18px;
+}
+
+.contact form input[type="text"],
+.contact form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.contact form textarea {
+    height: 120px;
+}
+
+.contact form input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.contact form input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #004483c9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Added box shadow */
+}
+
+/* Footer styles */
+footer {
+    padding: 20px;
+    background-color: #004483d0;
+    color: #fff;
+    text-align: center;
+}
+
+footer p,
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
